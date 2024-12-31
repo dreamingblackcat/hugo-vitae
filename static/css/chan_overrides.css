@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Noto Sans Myanmar";
+  src:
+    local("Noto Sans Myanmar"),
+    url("/fonts/NotoSansMyanmar-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans Myanmar SemiBold";
+  src: url("/fonts/NotoSansMyanmar-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans Myanmar Medium";
+  src:
+    local("" ""),
+    url("/fonts/NotoSansMyanmar-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  font-family: "Noto Sans Myanmar", "Roboto Slab Regular", "Roboto Mono",
+    sans-serif;
+  line-height: 1.8em;
+}
+
+.post-header h1.title {
+  margin: -10px 0 0 0;
+  font-family: "Noto Sans Myanmar", "Roboto Slab Regular", serif;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+}
+
+.post .title.small {
+  margin: 0;
+  font-family: "Noto Sans Myanmar", "Roboto Slab Regular", serif;
+}
+
+.description {
+  font-family: "Noto Sans Myanmar", "Roboto Slab Regular", "Roboto Mono",
+    sans-serif;
+}
